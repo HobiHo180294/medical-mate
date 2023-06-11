@@ -1,0 +1,16 @@
+@import 'styles/global/templates';
+@import 'styles/global/palette';
+
+.category {
+  width: 100%;
+  text-align: center;
+  background-color: $tasman;
+
+  &__text {
+    display: inline-block;
+    width: 17.6rem;
+    text-transform: uppercase;
+    color: $cod-gray;
+    @extend %textStyleDesktopIntroPage_H5;
+  }
+}

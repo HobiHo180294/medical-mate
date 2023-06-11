@@ -1,0 +1,5 @@
+@import 'styles/global/templates';
+
+.intro-page-container {
+  @extend %intro-container;
+}

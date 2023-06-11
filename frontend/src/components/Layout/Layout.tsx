@@ -6,14 +6,12 @@ interface ILayoutProps {
   footer?: ReactNode;
 }
 
-export const Layout = ({ header, footer }: ILayoutProps): JSX.Element => {
-  return (
-    <>
-      {header}
-      <main className="page">
-        <Outlet />
-      </main>
-      {footer}
-    </>
-  );
-};
+export const Layout = ({ header, footer }: ILayoutProps): JSX.Element => (
+  <>
+    {header}
+    <main className="page">
+      <Outlet />
+    </main>
+    {footer}
+  </>
+);

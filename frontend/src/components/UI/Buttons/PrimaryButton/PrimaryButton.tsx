@@ -8,41 +8,39 @@ interface IPrimaryButtonProps {
   href?: string;
 }
 
-export const PrimaryButton = ({ text, href, padding }: IPrimaryButtonProps): JSX.Element => {
-  return (
-    <>
-      {href ? (
-        href.includes('#') ? (
-          <AnchorLink
-            href={href}
-            className={`${styles['primary-button']} ${styles.link}`}
-            style={{
-              padding,
-            }}
-          >
-            {text}
-          </AnchorLink>
-        ) : (
-          <Link
-            to={href}
-            className={`${styles['primary-button']} ${styles.link}`}
-            style={{
-              padding,
-            }}
-          >
-            {text}
-          </Link>
-        )
-      ) : (
-        <button
-          className={`${styles['primary-button']} ${styles.button}`}
+export const PrimaryButton = ({ text, href, padding }: IPrimaryButtonProps): JSX.Element => (
+  <>
+    {href ? (
+      href.includes('#') ? (
+        <AnchorLink
+          href={href}
+          className={`${styles['primary-button']} ${styles.link}`}
           style={{
             padding,
           }}
         >
           {text}
-        </button>
-      )}
-    </>
-  );
-};
+        </AnchorLink>
+      ) : (
+        <Link
+          to={href}
+          className={`${styles['primary-button']} ${styles.link}`}
+          style={{
+            padding,
+          }}
+        >
+          {text}
+        </Link>
+      )
+    ) : (
+      <button
+        className={`${styles['primary-button']} ${styles.button}`}
+        style={{
+          padding,
+        }}
+      >
+        {text}
+      </button>
+    )}
+  </>
+);

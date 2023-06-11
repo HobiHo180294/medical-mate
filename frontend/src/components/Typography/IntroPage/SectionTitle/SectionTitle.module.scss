@@ -1,0 +1,15 @@
+@import 'styles/global/templates';
+@import 'styles/global/palette';
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: $te-papa-green;
+
+  &__value {
+    margin: 0;
+    text-transform: uppercase;
+    @extend %textStyleDesktopIntroPage_H2;
+  }
+}

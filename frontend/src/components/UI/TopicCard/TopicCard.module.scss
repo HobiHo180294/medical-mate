@@ -1,0 +1,20 @@
+@import 'styles/global/palette';
+
+.question-card {
+  > * {
+    &:not(:last-child) {
+      margin-bottom: 17px;
+    }
+  }
+
+  &__answer {
+    margin: 0;
+    font-family: 'Jaymont PERSONAL';
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 2.3rem;
+    letter-spacing: 0.105em;
+    text-align: center;
+    color: $cod-gray;
+  }
+}

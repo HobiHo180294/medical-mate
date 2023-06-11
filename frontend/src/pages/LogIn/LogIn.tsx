@@ -1,3 +1,1 @@
-export const LogInPage = (): JSX.Element => {
-  return <div>LogInPage</div>;
-};
+export const LogInPage = (): JSX.Element => <div>LogInPage</div>;

@@ -1,0 +1,65 @@
+@import 'styles/global/palette';
+@import 'styles/global/templates';
+
+.about {
+  padding: 4rem 0;
+  background-color: $linen;
+}
+
+.topbar {
+  margin-bottom: 2.5rem;
+
+  &__subtitle {
+    margin: 0;
+    color: $cod-gray;
+    @extend %textStyleDesktopIntroPage_H4;
+  }
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  &__info {
+    flex: 0 1 67.2rem;
+  }
+
+  &__image {
+    &_pic {
+      max-width: 44.6rem;
+      max-height: 39.8rem;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.info {
+  &__topics {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  &__text {
+    > * {
+      margin: 0;
+
+      &:not(:last-child) {
+        margin-bottom: 3rem;
+      }
+    }
+
+    &_paragraph {
+      color: $cod-gray;
+      font-family: 'Jaymont PERSONAL';
+      font-size: 1.8rem;
+      font-weight: 300;
+      line-height: 2.3rem;
+      text-align: justify;
+    }
+  }
+}

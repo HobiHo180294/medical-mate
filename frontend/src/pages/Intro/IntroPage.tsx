@@ -1,5 +1,9 @@
-import { Hero } from 'sections/index';
+import { HeroSectionIntroPage } from 'sections/index';
+import { AboutSectionIntroPage } from 'sections/index';
 
-export const IntroPage = (): JSX.Element => {
-  return <Hero />;
-};
+export const IntroPage = (): JSX.Element => (
+  <>
+    <HeroSectionIntroPage />
+    <AboutSectionIntroPage />
+  </>
+);

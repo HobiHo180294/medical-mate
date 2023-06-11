@@ -1,5 +1,5 @@
-import { MedicalMateLogo, NavMenu, PrimaryButton } from 'components/index';
 import { TNavMenuItem } from 'types/TNavMenuItem';
+import { IntroPageContainer, MedicalMateLogo, NavMenu, PrimaryButton } from 'components/index';
 import styles from './Header.module.scss';
 
 const NavMenuItems: TNavMenuItem[] = [
@@ -30,16 +30,14 @@ const NavMenuItems: TNavMenuItem[] = [
   },
 ];
 
-export const Header = (): JSX.Element => {
-  return (
-    <header className={styles.header}>
-      <div className={`${styles.header__container} ${styles._container}`}>
-        <div className={`${styles.header__body}`}>
-          <MedicalMateLogo />
-          <NavMenu contentArray={NavMenuItems} linkType="AnchorLink" />
-          <PrimaryButton padding="1.1rem 0 0.8rem" text="Sign in" href="/login" />
-        </div>
+export const Header = (): JSX.Element => (
+  <header className={styles.header}>
+    <IntroPageContainer>
+      <div className={`${styles.header__body}`}>
+        <MedicalMateLogo />
+        <NavMenu contentArray={NavMenuItems} linkType="AnchorLink" />
+        <PrimaryButton padding="1.1rem 0 0.8rem" text="Sign in" href="/login" />
       </div>
-    </header>
-  );
-};
+    </IntroPageContainer>
+  </header>
+);

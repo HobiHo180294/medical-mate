@@ -29,7 +29,7 @@
     margin: 0;
     text-transform: uppercase;
     margin-bottom: 2.7rem;
-    @extend %textStyleDesktop_H1;
+    @extend %textStyleDesktopIntroPage_H1;
   }
 
   &__credo {
@@ -49,8 +49,4 @@
     width: 100%;
     height: 100%;
   }
-}
-
-._container {
-  @extend %intro-container;
 }
