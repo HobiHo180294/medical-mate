@@ -3,7 +3,9 @@
 
 .header {
   background-color: $bone;
-  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  padding: 2rem 0;
 
   &__body {
     display: flex;

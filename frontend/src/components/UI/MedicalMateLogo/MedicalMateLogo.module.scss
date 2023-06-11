@@ -5,6 +5,8 @@
   display: inline-block;
 
   &__wrapper {
+    margin: 0;
+
     > * {
       background: none;
       color: $cod-gray;

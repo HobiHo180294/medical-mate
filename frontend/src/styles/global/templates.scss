@@ -8,11 +8,18 @@
 %intro-container {
   box-sizing: content-box;
   margin: 0 auto;
-  max-width: 1144px;
-  padding: 0 10px;
+  max-width: 114.4rem;
+  padding: 0 1rem;
 }
 
 // Typography
+%textStyleDesktop_H1 {
+  font-family: 'Brandink Sans';
+  font-size: 6.4rem;
+  font-weight: 300;
+  line-height: 7.1rem;
+}
+
 %textStyleDesktopMedicalMateLogoBold {
   font-family: 'Migha';
   font-style: normal;

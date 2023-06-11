@@ -1,3 +1,5 @@
+import { Hero } from 'sections/index';
+
 export const IntroPage = (): JSX.Element => {
-  return <div>IntroPage</div>;
+  return <Hero />;
 };

@@ -1,0 +1,56 @@
+@import 'styles/global/templates';
+@import 'styles/global/palette';
+
+.hero {
+  min-height: 100vh;
+  padding-top: 18.9rem;
+  background-color: $bone;
+
+  &__body {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.8rem;
+  }
+}
+
+.content-column {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 55.3rem;
+
+  > * {
+    &:last-child {
+      max-width: 32.9rem;
+    }
+  }
+
+  &__title {
+    margin: 0;
+    text-transform: uppercase;
+    margin-bottom: 2.7rem;
+    @extend %textStyleDesktop_H1;
+  }
+
+  &__credo {
+    margin: 0;
+    font-family: 'Jaymont PERSONAL';
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 2.5rem;
+    margin-bottom: 4.4rem;
+  }
+}
+
+.image-column {
+  &__picture {
+    max-width: 56.3rem;
+    max-height: 36.1rem;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+._container {
+  @extend %intro-container;
+}
