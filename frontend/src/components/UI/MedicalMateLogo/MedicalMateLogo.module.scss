@@ -1,0 +1,21 @@
+@import 'styles/global/templates';
+@import 'styles/global/palette';
+
+.logo {
+  display: inline-block;
+
+  &__wrapper {
+    > * {
+      background: none;
+      color: $cod-gray;
+    }
+  }
+
+  &__bold {
+    @extend %textStyleDesktopMedicalMateLogoBold;
+  }
+
+  &__italic {
+    @extend %textStyleDesktopMedicalMateLogoItalic;
+  }
+}

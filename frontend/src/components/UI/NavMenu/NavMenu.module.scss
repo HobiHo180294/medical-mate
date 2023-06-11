@@ -1,0 +1,28 @@
+@import 'styles/global/templates';
+@import 'styles/global/palette';
+
+.menu {
+  &__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+
+    &._mr51 {
+      > * {
+        &:not(:last-child) {
+          @extend %mr51;
+        }
+      }
+    }
+  }
+
+  &__link {
+    font-family: 'Jaymont PERSONAL';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+    color: $cod-gray;
+  }
+}

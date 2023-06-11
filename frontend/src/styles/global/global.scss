@@ -1,13 +1,16 @@
 @import './templates.scss';
+@import './palette.scss';
 @import './fonts.scss';
 
 html,
 body {
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 html {
   box-sizing: border-box;
+  font-size: 10px;
 }
 
 * {

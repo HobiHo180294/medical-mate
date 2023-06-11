@@ -5,9 +5,31 @@
   overflow: hidden;
 }
 
-._container {
+%intro-container {
   box-sizing: content-box;
   margin: 0 auto;
-  max-width: 1161px;
+  max-width: 1144px;
   padding: 0 10px;
+}
+
+// Typography
+%textStyleDesktopMedicalMateLogoBold {
+  font-family: 'Migha';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 3.8rem;
+}
+
+%textStyleDesktopMedicalMateLogoItalic {
+  font-family: 'Migha';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 3.2rem;
+  line-height: 3.8rem;
+}
+
+// Margins
+%mr51 {
+  margin-right: 5.1rem;
 }

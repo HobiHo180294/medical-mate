@@ -1,0 +1,24 @@
+@import 'styles/global/templates';
+@import 'styles/global/palette';
+
+.header {
+  background-color: $bone;
+  padding: 1rem 0;
+
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    > * {
+      &:last-child {
+        flex: 0 1 9.6rem;
+      }
+    }
+  }
+}
+
+._container {
+  @extend %intro-container;
+}
