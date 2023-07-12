@@ -6,3 +6,5 @@ export { SectionTitle as IntroPageSectionTitle } from './Typography/IntroPage/Se
 export { IntroPageContainer } from './containers/IntroPageContainer/IntroPageContainer';
 export { Category } from './UI/Category/Category';
 export { TopicCard } from './UI/TopicCard/TopicCard';
+export { DepartmentCard } from './UI/DepartmentCard/DepartmentCard';
+export { GridComponent } from './UI/GridComponent/GridComponent';
