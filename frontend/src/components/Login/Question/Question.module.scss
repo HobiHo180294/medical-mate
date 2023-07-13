@@ -1,0 +1,16 @@
+.login {
+  &__subject,
+  &__action {
+    color: #000;
+    font-family: 'Jaymont PERSONAL';
+    font-size: 1.4rem;
+  }
+
+  &__subject {
+    font-weight: 300;
+  }
+
+  &__action {
+    font-weight: 500;
+  }
+}

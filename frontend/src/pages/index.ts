@@ -1,3 +1,4 @@
 export { IntroPage } from './Intro/IntroPage';
-export { LogInPage } from './LogIn/LogIn';
+export { LoginPage } from './Login/LoginPage';
 export { NotFoundPage } from './NotFound/NotFoundPage';
+export { SignUpPage } from './SignUp/SignUpPage';

@@ -11,6 +11,8 @@ export default defineConfig({
       styles: '/src/styles',
       types: '/src/types',
       sections: '/src/sections',
+      constants: '/src/constants',
+      helpers: '/src/helpers',
     },
   },
 });

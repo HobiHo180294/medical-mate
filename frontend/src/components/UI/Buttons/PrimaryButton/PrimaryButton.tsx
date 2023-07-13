@@ -1,14 +1,16 @@
 import { Link } from 'react-router-dom';
 import styles from './PrimaryButton.module.scss';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import { LoadingButtonProps } from '@mui/lab';
 
 interface IPrimaryButtonProps {
   text: string;
   padding: string;
   href?: string;
+  type?: LoadingButtonProps['type'];
 }
 
-export const PrimaryButton = ({ text, href, padding }: IPrimaryButtonProps): JSX.Element => (
+export const PrimaryButton = ({ text, href, padding, type }: IPrimaryButtonProps): JSX.Element => (
   <>
     {href ? (
       href.includes('#') ? (
@@ -38,6 +40,7 @@ export const PrimaryButton = ({ text, href, padding }: IPrimaryButtonProps): JSX
         style={{
           padding,
         }}
+        type={type}
       >
         {text}
       </button>

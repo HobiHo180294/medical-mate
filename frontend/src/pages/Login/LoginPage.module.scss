@@ -1,0 +1,74 @@
+.login {
+  min-height: 100vh;
+
+  &__body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    > * {
+      display: flex;
+      flex: 0 1 50%;
+      flex-direction: column;
+      justify-content: center;
+      min-height: inherit;
+    }
+  }
+}
+
+.content {
+  padding: 1rem 8.7rem 1rem 3.7rem;
+  background-color: #ccec67;
+
+  &__body {
+    > * {
+      &:not(:last-child) {
+        margin-bottom: 4.6rem;
+      }
+    }
+  }
+
+  &__paragraph {
+    margin: 0;
+    color: #000;
+    font-family: 'Brandink Sans';
+    font-size: 3.6rem;
+    font-weight: 300;
+    line-height: 155.3%;
+    letter-spacing: 0.378rem;
+  }
+}
+
+.form {
+  padding-left: 13.6rem;
+  padding-right: 12.4rem;
+
+  &__title {
+    margin-bottom: 2rem !important;
+  }
+
+  &__question {
+    margin-bottom: 2.5rem;
+  }
+
+  &__fields {
+    border: none;
+    margin: 0;
+    padding: 0;
+
+    > * {
+      &:not(:last-child) {
+        margin-bottom: 2.6rem;
+      }
+
+      &:last-child {
+        color: #151515;
+        font-family: Jaymont PERSONAL;
+        font-size: 3.2rem;
+        font-weight: 500;
+        line-height: normal;
+      }
+    }
+  }
+}
