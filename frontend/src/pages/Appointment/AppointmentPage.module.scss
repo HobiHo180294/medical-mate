@@ -1,0 +1,23 @@
+.departments {
+  &__body {
+    > * {
+      &:first-child {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+  &__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    align-items: center;
+
+    > * {
+      cursor: pointer;
+    }
+  }
+}

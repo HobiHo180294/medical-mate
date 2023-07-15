@@ -74,7 +74,8 @@ export const LoginPage = (): JSX.Element => {
         console.log('loginResult:', loginResult);
 
         setTimeout(() => {
-          navigate('/', { replace: true });
+          localStorage.setItem('loginResult', JSON.stringify(loginResult.data));
+          navigate('/personal-cabinet/my-profile', { replace: true });
         }, 1500);
         reset();
       } else {
