@@ -204,6 +204,7 @@ In conclusion, the front-end side of the MedicalMate project utilizes React and 
 3. [Back-end Repository](https://github.com/HobiHo180294/medical-mate-back-end)
 
 ⚠️ **Please note:** _Active development on this project is no longer maintained._
+
 📚 _You can find the full technical documentation at the [https://www.dropbox.com/scl/fi/cgbid935411fjgnmxwgdh/MedicalMate-Documentation.pdf?rlkey=8j3wm7kvudzrt7cle831dgxmo&st=qpoiheni&dl=0](https://www.dropbox.com/scl/fi/cgbid935411fjgnmxwgdh/MedicalMate-Documentation.pdf?rlkey=8j3wm7kvudzrt7cle831dgxmo&st=qpoiheni&dl=0)._
 
 **© 2025 All Rights Reserved**
